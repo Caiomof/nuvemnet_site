@@ -1,0 +1,13 @@
+<script type="text/javascript">
+  (function(w, d, x, id){
+    s=d.createElement('script');
+    s.src='https://venhapranuvem-dev.my.connect.aws/connectwidget/static/amazon-connect-chat-interface-client.js';
+    s.async=1;
+    s.id=id;
+    d.getElementsByTagName('head')[0].appendChild(s);
+    w[x] =  w[x] || function() { (w[x].ac = w[x].ac || []).push(arguments) };
+  })(window, document, 'amazon_connect', '487640d9-01f3-46dd-98fb-be1cceba2603');
+  amazon_connect('styles', { iconType: 'CHAT', openChat: { color: '#ffffff', backgroundColor: '#123456' }, closeChat: { color: '#ffffff', backgroundColor: '#123456'} });
+  amazon_connect('snippetId', 'QVFJREFIaDRobWZ4TDRrQys5SXJsU0RsT2NjaHpDOEQvN3ZqSEZkQWdhY1I3SUhoUXdFSjBibnJvbWpIVFVRK1M2S25HSmpzQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNc0hYRndqd1l4VnEwYmdmdUFnRVFnQ3ZUVjhZU1h3OGVMNDVjaUpNNzJadVV3TVRvbHpXTTBNVlpoQi9ndVF3SHlFNWlWWFl3VEFZeldLZGo6Om5DanEzS0JEYmdXS0piQmVuZlh4VVdHU0p0eXRtUnh3V1hXZm91R1hTK2ZybnU5a2JHVG00TWx1U2ZwVTFiVUdtdnNLd3hKT0RSeHJ3c0dIRUJEU3k1eXhkL3kxNEdhRUplb3RXQ2swMExocUNXdERmcy9XaEFLQnNTRW9ORjQyMk5VNXRjMFZhZngycUhhUmF2eVFFZnhkUXFGN2VQMD0=');
+  amazon_connect('supportedMessagingContentTypes', [ 'text/plain', 'text/markdown', 'application/vnd.amazonaws.connect.message.interactive', 'application/vnd.amazonaws.connect.message.interactive.response' ]);
+</script>
