@@ -12,7 +12,7 @@ mesma história.
 ## Como rodar
 
 Na raiz do workspace, dê dois cliques em **`iniciar-nuvemnet.bat`**. Ele instala as dependências na
-primeira execução e sobe o servidor em <http://localhost:5180>.
+primeira execução e sobe o servidor em <http://localhost:5182>.
 
 Ou, pelo terminal:
 
@@ -24,7 +24,7 @@ npm run dev
 
 | Script | O que faz |
 |--------|-----------|
-| `npm run dev` | Servidor de desenvolvimento com hot reload na porta 5180 |
+| `npm run dev` | Servidor de desenvolvimento com hot reload na porta 5182 |
 | `npm run build` | Verifica tipos e gera o site estático em `dist/` |
 | `npm run preview` | Serve o `dist/` para testar a versão de produção |
 | `npm run lint` | Só a checagem de tipos do TypeScript |
@@ -79,7 +79,7 @@ NuvemNet/
 ## Ligando o webchat do Amazon Connect
 
 1. No Connect admin: **Channels → Communication widgets → Add widget**.
-2. Em *domains*, autorize `http://localhost:5180` (desenvolvimento) e o domínio real de produção.
+2. Em *domains*, autorize `http://localhost:5182` (desenvolvimento) e o domínio real de produção.
 3. Aponte o widget para o contact flow do piloto (o mesmo usado por WhatsApp e Test Chat).
 4. Salve e copie o snippet gerado.
 5. Copie `.env.example` para `.env.local` e preencha:

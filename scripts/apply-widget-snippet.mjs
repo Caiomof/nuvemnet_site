@@ -48,4 +48,4 @@ console.log(`  WIDGET_ID: ${widgetId}`);
 console.log(`  SCRIPT_URL: ${scriptUrl}`);
 console.log(`  SNIPPET_ID: ${snippetId.slice(0, 24)}… (${snippetId.length} chars)`);
 console.log('');
-console.log('Reinicie o iniciar-nuvemnet.bat e abra http://localhost:5180');
+console.log('Reinicie o nuvemnet_start.bat e abra http://localhost:5182');
